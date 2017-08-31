@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ai là triệu phú</string>
+    <string name="facebook_app_id">224058914711491</string>
+    <string name="sansang">Sẵn sàng</string>
+    <string name="huy">Huỷ</string>
+    <string name="finish1">Bạn đã dành được </string>
+    <string name="finish2">Cảm ơn bạn đã đến với chúng tôi và chúc bạn thành công trong cuộc sống !!!</string>
+    <string name="batdau">Bạn sẽ phải làm gì? Bạn sẽ phải vượt qua 15 câu hỏi của chương trình. Mỗi câu hỏi bạn có 30 giây để trả lời
+    và sẽ có 3 mốc rất quan trọng là 5, 10 và 15 đầu tiên chúng ta phải vượt qua. Bạn có những sự trợ giúp
+            rất đắc lực là: 50/50, gọi điện thoại cho người thân và hỏi ý kiến khán giả trong trường quay.
+     </string>
+    <string name="huongdan2">Trước khi chơi bạn sẽ phải chọn 4 người thân từ danh bạ của mình để có thể sử dụng quyền trợ giúp gọi điện thoại cho người
+    thân.</string>
+
+    <string name="huongdan3">Sau mỗi lần chơi người chơi sẽ được cộng điểm tương ứng với số điểm đạt được và sẽ được nhận huy chương</string>
+
+    <string name="huongdan4">Điều kiện để đạt được các cấp độ huy chương</string>
+    <string name="ok">OK</string>
+</resources>

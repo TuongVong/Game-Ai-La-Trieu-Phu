@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "530731336079",
+    "firebase_url": "https://milionnaire-aefd6.firebaseio.com",
+    "project_id": "milionnaire-aefd6",
+    "storage_bucket": "milionnaire-aefd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530731336079:android:33b2f7ba70f9a412",
+        "android_client_info": {
+          "package_name": "tuongvong.appgame.android.milionnaire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530731336079-b78j8rk3jmcb5h8khmnpvdn8516f1dtj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM1miS4rQVuzCE7__nnqNLObvJkgOWb2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

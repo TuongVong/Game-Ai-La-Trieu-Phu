@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#212121"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- TextView  -->
+
+                <TextView
+                android:text="0"
+                android:layout_width="7dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/tv_rank"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="12dp"
+                android:textSize="17sp"
+                android:layout_weight="1" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:elevation="12dp"
+                android:id="@+id/view2"
+                card_view:cardCornerRadius="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="left"
+                android:innerRadius="0dp"
+                android:shape="ring"
+                android:thicknessRatio="1.9">
+
+                <ImageView
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:id="@+id/iv_user_rank"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true">
+                </ImageView>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:text=""
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/tv_name_rank"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
+                android:textSize="17sp"
+                android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/rank_icon"
+                    android:layout_height="45dp"
+                    android:layout_width="45dp"
+                    android:background="#212121"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center">
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_height="30dp"
+                    android:layout_width="40dp"
+                    android:textColor="#ffff00"
+                    android:text="Điểm"
+                    android:textSize="17sp"
+                    android:gravity="center_vertical"
+                    android:id="@+id/iv_diem_rank"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_horizontal">
+                </TextView>
+
+            <TextView
+                android:text="0"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff00"
+                android:id="@+id/tv_diem_rank"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="right|bottom"
+                android:textSize="17sp"
+                android:layout_weight="1" />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+</android.support.v7.widget.CardView>
