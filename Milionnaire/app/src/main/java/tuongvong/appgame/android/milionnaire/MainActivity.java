@@ -166,16 +166,16 @@ public class MainActivity extends AppCompatActivity {
                 if(diem_rank >= 100000){
                     iv_level.setImageResource(R.drawable.dong);
                 }
-                if(diem_rank >= 300000){
+                if(diem_rank >= 500000){
                     iv_level.setImageResource(R.drawable.bac);
                 }
-                if(diem_rank >= 500000){
+                if(diem_rank >= 700000){
                     iv_level.setImageResource(R.drawable.vang);
                 }
-                if(diem_rank >= 700000){
+                if(diem_rank >= 1000000){
                     iv_level.setImageResource(R.drawable.platinum);
                 }
-                if(diem_rank >= 1000000){
+                if(diem_rank >= 3000000){
                     iv_level.setImageResource(R.drawable.kimcuong);
                 }
 

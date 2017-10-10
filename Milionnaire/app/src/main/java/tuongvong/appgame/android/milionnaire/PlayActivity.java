@@ -73,8 +73,8 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
     Dialog dialog;
     private AVLoadingIndicatorView avi;
     String indicator;
-    private DemNguocRunnable mDemnguocRun;
-    private Handler mDemnguocHandler;
+    private static DemNguocRunnable mDemnguocRun;
+    private static Handler mDemnguocHandler;
     Users users;
     ListView lv_item;
     ArrayList<People> arr_people;

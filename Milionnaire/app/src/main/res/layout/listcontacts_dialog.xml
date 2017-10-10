@@ -13,7 +13,7 @@
         android:id="@+id/textcontact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bạn hãy chọn 4 người thân"
+        android:text="Bạn hãy chọn 1 người thân"
         android:textColor="@color/text"
         android:textSize="18sp"
         android:layout_marginTop="7dp"

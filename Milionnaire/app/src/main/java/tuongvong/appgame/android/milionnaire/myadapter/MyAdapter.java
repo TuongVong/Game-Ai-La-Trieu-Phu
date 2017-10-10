@@ -50,7 +50,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
 
             Users m;
             // sắp xếp arraylist theo thứ tự điểm giảm dần
-            for(int i=0; i<ds.size(); i++) {
+            for(int i=0; i<ds.size()-1; i++) {
                 for (int j = i + 1; j < ds.size(); j++) {
                     int num1 = Integer.parseInt(ds.get(i).diem);
                     int num2 = Integer.parseInt(ds.get(j).diem);

@@ -93,6 +93,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 handleFacebookAccessToken(loginResult.getAccessToken());
+               // updateUI(signIn = true);
             }
             @Override
             public void onCancel() {
@@ -172,8 +173,9 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void handleFacebookAccessToken(AccessToken accessToken) {
-        progressBar.setVisibility(View.VISIBLE);
+        //progressBar.setVisibility(View.VISIBLE);
         bt_login.setVisibility(View.GONE);
+        bt_signin.setVisibility(View.GONE);
 
         AuthCredential credential = FacebookAuthProvider.getCredential(accessToken.getToken());
         firebaseAuth.signInWithCredential(credential).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -182,8 +184,8 @@ public class LoginActivity extends AppCompatActivity {
                 if (!task.isSuccessful()) {
                     Toast.makeText(getApplicationContext(),"Fire Base Error Login", Toast.LENGTH_LONG).show();
                 }
-                progressBar.setVisibility(View.GONE);
-                bt_login.setVisibility(View.VISIBLE);
+                //progressBar.setVisibility(View.GONE);
+                //bt_login.setVisibility(View.VISIBLE);
             }
         });
     }
@@ -245,7 +247,7 @@ public class LoginActivity extends AppCompatActivity {
             bt_login.setVisibility(View.GONE);
             bt_signin.setVisibility(View.GONE);
             progressBar.setVisibility(View.VISIBLE);
-            Toast.makeText(LoginActivity.this, "Sign in success", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(LoginActivity.this, "Sign in success", Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(LoginActivity.this, "Sign in failed", Toast.LENGTH_SHORT).show();
             bt_login.setVisibility(View.VISIBLE);
